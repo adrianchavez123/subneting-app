@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/x"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="IP A SEGMENTAR"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/etIp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="IP" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MASCARA"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/etMascara"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="MASCARA"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:textSize="35dp"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>
